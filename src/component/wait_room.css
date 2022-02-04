@@ -1,0 +1,57 @@
+.hamburger{
+   color:white; 
+   font-size:42px;
+}
+.hamburger:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #50ba51 inset, 0 0 10px 4px #50ba51;
+}
+.hamburger-list{
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #2e2b30;
+    transition: width 2s;
+    width: 300px;
+/* display='fixed' right={0} top={0} bottom={0} left={'200px'} */
+}
+.hamControl{
+    border:1px gray solid;
+    border-radius: 5px;
+    background: transparent;
+    padding: 7px 13px 7px 13px;
+    display: flex;
+    align-items: center;
+}
+.wait_bg{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 46.4%, rgba(10, 7, 12, 0.05) 100%);
+}
+.wait-btn{
+    color: black;
+    background-color: #ffffff;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.padd-l-0{
+    padding-left: 0px;
+}
+.mt0{
+    margin: 0px!important;
+}
+.out-btn{
+    border: 1px gray solid;
+    background: transparent;
+    width:fit-content;
+    padding: 2px 11px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.ham-option{
+    background: #2e2b30;
+    border-radius: 5px!important;
+    padding:2px 10px!important;
+}
